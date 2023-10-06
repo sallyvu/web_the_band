@@ -204,7 +204,7 @@ CSS these aspects
   position: relative;
   margin-top: 46px;
   padding-top: 50%;
-  background: URL("./assets/img/slider/slider1.jpeg") center/ cover
+  background: URL("../assets/img/slider/slider1.jpeg") center/ cover
     no-repeat;
 }
 #slider .text-content {
