@@ -1,0 +1,93 @@
+/* PC */
+@media (max-width: 64em) {
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  #footer .socials-list {
+    font-size: 3em;
+  }
+}
+
+/* Tablet and Mobile */
+@media (max-width: 63.9375em) {
+  #nav .subnav a {
+    padding: 0.3125em 0.75em;
+  }
+
+  .btn {
+    padding: 0.9375em 1em;
+  }
+
+  .contact-form .form-control {
+    padding: 0.9375em;
+  }
+
+  .contact-info {
+    line-height: 2;
+  }
+
+  #footer .socials-list a {
+    margin: 0 0.5em;
+  }
+
+  #footer .copyright a {
+    padding: 0.75em 0;
+    display: inline-block;
+  }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+  /* Common */
+  .s-full-width,
+  .s-col-full {
+    width: 100% !important;
+  }
+
+  .s-mt-8 {
+    margin-top: 0.5em;
+  }
+
+  /* Main */
+  #header {
+    overflow: hidden;
+  }
+
+  #nav {
+    display: block;
+  }
+
+  #nav > li {
+    display: block;
+  }
+
+  #nav li:first-child {
+    display: inline-block;
+  }
+
+  #nav .subnav {
+    position: initial;
+    background-color: #333;
+  }
+
+  #nav .subnav a {
+    color: #fff;
+  }
+
+  #search-btn {
+    display: none;
+  }
+
+  #menu-btn {
+    display: block;
+  }
+
+  .btn {
+    font-size: 1em;
+  }
+
+  .contact-form {
+    margin-top: 1em;
+  }
+}
