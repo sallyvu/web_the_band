@@ -1,4 +1,4 @@
-const buyBtns = document.querySelectorAll(".place-buy-btn")
+const buyBtns = document.querySelectorAll(".btn")
 const modal = document.querySelector(".modal")
 const closeBtn = document.querySelector('.modal-close')
 const modalContainer = document.querySelector(".modal-container")
